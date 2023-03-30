@@ -1,0 +1,17 @@
+let programming = {
+    languages: ['JavaScript', 'Piton', 'Ruby'],
+    isChallanging: true,
+    isRewarding: true,
+    difficulty: 8,
+    jokes: 'http://example.com/q/234075/whats-your-best-it-joke',
+};
+// Задание 1
+programming.languages.push('Go')
+// Задание 2
+programming.difficulty = 7;
+// Задание 3
+delete programming.jokes;
+// Задание 4
+programming.isFun = true;
+console.log(programming);
+// Задание 5
